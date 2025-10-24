@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+wheels/
+*.egg
+
+# Environments
+.env
+.venv
+env/
+virtualenv/
+venv/
+
+# Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Tests
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+.Trashes
+Thumbs.db

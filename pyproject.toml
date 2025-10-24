@@ -1,0 +1,18 @@
+[project]
+name = "course-api-fastapi"
+version = "0.1.0"
+description = "Minimal FastAPI service exposing course endpoints with course_id-only response."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi==0.115.0",
+    "uvicorn[standard]==0.30.6",
+    "pydantic==2.9.2",
+    "httpx==0.27.0"
+]
+
+[tool.black]
+line-length = 100
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
